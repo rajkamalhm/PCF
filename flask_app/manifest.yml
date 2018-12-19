@@ -3,7 +3,7 @@ applications:
 - name: rajflaskapp
   random-route: true
   memory: 512M
-  instances: 1
+  instances: 2
   buildpacks: 
     - python_buildpack
   command: python flask_app.py
