@@ -1,6 +1,6 @@
 ---
 applications:
-- name: rajflaskapp
+- name: rajflaskapppcf
   memory: 512M
   instances: 1
   buildpacks: 
