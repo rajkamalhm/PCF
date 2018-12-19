@@ -1,6 +1,7 @@
 ---
 applications:
-- name: rajflaskapppcf
+- name: rajflaskapp
+  random-route: true
   memory: 512M
   instances: 1
   buildpacks: 
