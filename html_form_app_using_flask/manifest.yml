@@ -1,0 +1,11 @@
+---
+applications:
+- name: formapp
+  random-route: true
+  memory: 512M
+  instances: 1
+  buildpacks: 
+    - python_buildpack
+  command: python form.py
+  disk_quota: 512M
+  stack: cflinuxfs3 
